@@ -6,5 +6,6 @@ gitbranch="$(git branch --show-current)"
 
 git clone $giturl -b $gitbranch $dir
 
+rm -rf old.git || true
 mv .git old.git || true
 mv $dir/.git .git
