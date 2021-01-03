@@ -9,7 +9,7 @@ This clones your repo from source, rips out the .git file, and replaces your loc
 
 Instead of messing with your .git, you can `git fix` and replace your .git with a clean one from your repo's source 🧹
 
-This takes branches into account 🌴
+This takes branches 🌴 into account! But it does replace your .git, so unpushed changes to another branch than the current one will be lost! (But not completely, see the last section in this readme.)
 
 # Usage
 
