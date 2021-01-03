@@ -25,4 +25,4 @@ Run `install.sh`. This will add the `git-fix` script to your `/home/$USER/.local
 
 # Oops! I actually needed my old .git!
 
-We actually didn't completely murder it. You can find it in `old.git` local to the new `.git`. Do note, though, that `git fix` does not check for the existence of a `old.git` and will overwrite it 📋 should you run `git fix` again.
+We actually didn't completely murder it. You can find it in `old.git`, local to the new `.git`. Do note, though, that `git fix` does not check for the existence of a `old.git` and will overwrite it 📋 should you run `git fix` again.
