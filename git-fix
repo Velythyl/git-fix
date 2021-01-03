@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+dir="$(mktemp -d)"
+
+giturl="$(git config --get remote.origin.url)"
+gitbranch="$(git branch --show-current)"
+
+git clone $giturl -b $gitbranch $dir
+
+mv .git old.git || true
+mv $dir/.git .git
