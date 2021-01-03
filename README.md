@@ -21,7 +21,7 @@ Simply type `git fix` while inside the local repo to fix as though this script w
 
 # Install
 
-Run `install.sh`. This will add the `git-fix` script to your `/home/$USER/.local/bin`.
+Run `install.sh`. This will add the `git-fix` script to your `/home/$USER/.local/bin`, allowing you to call `git fix` from anywhere.
 
 # Oops! I actually needed my old .git!
 
