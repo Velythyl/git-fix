@@ -11,9 +11,13 @@ Instead of messing with your .git, you can `git fix` and replace your .git with 
 
 This takes branches 🌴 into account! But it does replace your .git, so unpushed changes to another branch than the current one will be lost! (But not completely, see the last section in this readme.)
 
+# How it works
+
+It reads your .git's URL and current branch and clones it to a temporary folder inside `/tmp/`. Then it extracts that temporary folder's .git and copies it to your local repository.
+
 # Usage
 
-Simply type `git fix` as though this script was an actual git command. 
+Simply type `git fix` while inside the local repo to fix as though this script was an actual git command. 
 
 # Install
 
